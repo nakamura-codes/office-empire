@@ -1,16 +1,11 @@
-# Office Empire v0.4 — Pixel art
+# Office Empire 0.9 — UI flutuante
 
-Abra `index.html` no navegador ou publique todos os arquivos no GitHub Pages, preservando a pasta `assets/`.
+Abra `index.html` no navegador, ou publique o conteúdo da pasta na raiz do GitHub Pages.
 
-## Novidades
-- Cenário com o escritório PNG fornecido pelo jogador.
-- Sprites de mesa, cadeira e monitor recortados do kit enviado.
-- Cenário ocupa a maior parte da tela; dinheiro, renda e melhorias ficam à direita.
-- Mais postos de trabalho aparecem com as promoções.
-- Mantidos os mesmos identificadores de salvamento da versão de contas locais (v0.3).
-
-## Salvamento
-As contas de teste e o progresso continuam no `localStorage` do navegador. Não há sincronização entre dispositivos. Use senhas fictícias.
-
-## Arquivos
-`index.html`, `style.css`, `game.js`, `auth.js`, `assets/`.
+## Funcionamento
+- Escolha o personagem e trabalhe clicando em **Concluir tarefa** ou no botão verde do cenário.
+- Use os menus **Carreira**, **Melhorias**, **Startup** e **Conquistas** para abrir janelas flutuantes com controles reais.
+- Feche com X, Escape ou clicando fora. As janelas têm animação suave.
+- Os seis postos aparecem com contratações. O dinheiro sai do personagem em pequenas partículas.
+- As contas e saves são locais ao navegador, não sincronizados entre dispositivos. Use senhas fictícias.
+- Para reiniciar e escolher outro personagem, use **Novo jogo**.
